@@ -6,9 +6,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -29,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Vite](https://vitejs.dev/): empacotador que pode pegar diversos tipos de arquivos (HTML, CSS e até mesmo imagens) e importar via JS com a proposta de distribuição mais organizadas dos arquivos de forma compacta.
 - [iMask](https://imask.js.org)
 
-## Comandos terminar
+## Comandos terminal
 
 - Vite: npm create vite@lastest > nome do projeto > tipo de framework/biblioteca > 1.js 2.typescript
 - NPM: npm install
