@@ -11,10 +11,6 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
-
 <br>
 
 <p align="center">
@@ -25,24 +21,19 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript e JSON
-- [Node e NPM](https://nodejs.org/)
-- [Vite](https://vitejs.dev/)
+- HTML
+- CSS
+- JavaScript
+- JSON
+- [Node e NPM](https://nodejs.org/): instalações de dependencias do projeto.
+- [Vite](https://vitejs.dev/): empacotador que pode pegar diversos tipos de arquivos (HTML, CSS e até mesmo imagens) e importar via JS com a proposta de distribuição mais organizadas dos arquivos de forma compacta.
 - [iMask](https://imask.js.org)
 
+## Comandos terminar
+
+- Vite: npm create vite@lastest > nome do projeto > tipo de framework/biblioteca > 1.js 2.typescript
+- NPM: npm install
+- Rodar o projeto: npm run dev
 ## 💻 Projeto
 
 O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
