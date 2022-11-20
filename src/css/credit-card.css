@@ -1,7 +1,7 @@
 /* CC */
 .cc {
   background: no-repeat center/cover;
-  background-image: url("/cc-bg.svg");
+  /* background-image: url("/cc-bg.svg"); */
   width: 36rem;
   height: 23rem;
   padding: 2rem;
@@ -9,6 +9,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  border: solid 1px #e8e8e8;
+  border-radius: 15px;
 }
 
 .cc-logo {
