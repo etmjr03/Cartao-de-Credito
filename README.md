@@ -32,6 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Vite: npm create vite@lastest > nome do projeto > tipo de framework/biblioteca > 1.js 2.typescript
 - NPM: npm install
 - Rodar o projeto: npm run dev
+- iMask: npm install imask
 ## 💻 Projeto
 
 O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
