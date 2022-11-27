@@ -90,6 +90,16 @@ cardHolder.addEventListener("input", () => {
   ccHolder.innerHTML = cardHolder.value.length === 0 ? "NOME DO CARTÃO" : cardHolder.value
 })
 
+function updateSecurityCode(code){
+  const ccSecurity = document.querySelector(".cc-security .value")
+
+  ccSecurity.innerHTML = code.length === 0 ? "XXX" : code
+}
+
+securityCodeMasked.on("accept", () => {
+  updateSecurityCode(securityCodeMasked.value)
+})
+
 // const matches = 'abcABC'.match(/[A-Z]/g)
 
 // const index = 'abcABC'.search(/[A-Z]/)
