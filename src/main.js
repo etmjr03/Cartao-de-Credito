@@ -87,7 +87,7 @@ const cardHolder = document.querySelector("#card-holder")
 cardHolder.addEventListener("input", () => {
   const ccHolder = document.querySelector(".cc-holder .value")
 
-  ccHolder.innerHTML = cardHolder.value
+  ccHolder.innerHTML = cardHolder.value.length === 0 ? "NOME DO CARTÃO" : cardHolder.value
 })
 
 // const matches = 'abcABC'.match(/[A-Z]/g)
