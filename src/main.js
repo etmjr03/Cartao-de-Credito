@@ -90,14 +90,23 @@ cardHolder.addEventListener("input", () => {
   ccHolder.innerHTML = cardHolder.value.length === 0 ? "NOME DO CARTÃO" : cardHolder.value
 })
 
-function updateSecurityCode(code){
+function updateSecurityCode(code) {
   const ccSecurity = document.querySelector(".cc-security .value")
 
-  ccSecurity.innerHTML = code.length === 0 ? "XXX" : code
+  ccSecurity.innerText = code.length === 0 ? "XXX" : code
 }
 
 securityCodeMasked.on("accept", () => {
   updateSecurityCode(securityCodeMasked.value)
+})
+
+function updateCardNumber(number) {
+  const ccNumber = document.querySelector(".cc-number")
+  ccNumber.innerText = number.length === 0 ? "1234 5678 9012 3456" : number
+}
+
+cardNumberMasked.on("accept", () => {
+  updateCardNumber(cardNumberMasked.value)
 })
 
 // const matches = 'abcABC'.match(/[A-Z]/g)
