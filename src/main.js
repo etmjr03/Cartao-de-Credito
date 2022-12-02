@@ -5,11 +5,11 @@ const ccBgColor01 = document.querySelector(".cc-bg svg > g g:nth-child(1) path")
 const ccBgColor02 = document.querySelector(".cc-bg svg > g g:nth-child(2) path")
 const ccLogo = document.querySelector(".cc-logo span:nth-child(2) img")
 
-function setarTipoCartao(type) {
+function setCardType(type) {
   const colors = {
     visa: ["#436D99", "#2D57F2"],
     mastercard: ["#DF6F29", "#C69347"],
-    defaul: ["black", "gray"],
+    default: ["black", "gray"],
   }
 
   ccBgColor01.setAttribute("fill", colors[type][0])
@@ -17,7 +17,7 @@ function setarTipoCartao(type) {
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
 
-globalThis.setarTipoCartao = setarTipoCartao
+globalThis.setCardType = setCardType
 
 const securityCode = document.querySelector("#security-code")
 const securityCodePattern = {
@@ -107,7 +107,7 @@ function updateCardNumber(number) {
 
 cardNumberMasked.on("accept", () => {
   const cardType = cardNumberMasked.masked.currentMask.cardtype
-  setarTipoCartao(cardType)
+  setCardType(cardType)
   updateCardNumber(cardNumberMasked.value)
 })
 
