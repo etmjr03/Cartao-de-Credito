@@ -106,8 +106,19 @@ function updateCardNumber(number) {
 }
 
 cardNumberMasked.on("accept", () => {
+  const cardType = cardNumberMasked.masked.currentMask.cardtype
+  setarTipoCartao(cardType)
   updateCardNumber(cardNumberMasked.value)
 })
+
+expirationDateMasked.on("accept", () => {
+  updateExpiretionDate(expirationDateMasked.value)
+})
+
+function updateExpiretionDate(date){
+  const ccExpiration = document.querySelector(".cc-extra .value")
+  ccExpiration.innerHTML = date.length === 0 ? "00/00" : date
+}
 
 // const matches = 'abcABC'.match(/[A-Z]/g)
 
